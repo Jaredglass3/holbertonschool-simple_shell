@@ -93,7 +93,7 @@ if (str == NULL)
 return (NULL);
 
 len = _strlen(str);
-dup_str = malloc((sizeof(char) * len) + 1);
+dup_str = malloc((sizeof(char) * len) +1);
 if (dup_str == NULL)
 return (NULL);
 
