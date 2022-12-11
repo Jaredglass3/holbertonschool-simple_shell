@@ -89,7 +89,6 @@ int exec(char *cname, char **opts)
 		case -1:
 			perror("fork failed");
 			return (-1);
-			break;
 		case 0:
 			execve(cname, opts, environ);
 			break;

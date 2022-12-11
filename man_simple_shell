@@ -5,27 +5,35 @@
 .SH SYNOPSIS
 .B ./hsh
 .SH DESCRIPTION
-The simple shell is a command-line interface (CLI) that provides a command line user interface for Unix-like operating systems.
-The shell is both an interactive command language and a scripting language. It is used by the operating system to control the 
+The simple shell is a command-line interface (CLI)
+that provides a command line user interface for
+Unix-like operating systems.
+The shell is both an interactive command language
+and a scripting language. It is used by the
+operating system to control the
 execution of the system using shell scripts.
 
 .B Overview
 
-The simple shell is a program that takes commands from the user, or a file, 
-and gives them to the operating system to perform.
-A terminal is used to interact with the simple shell. The
-shell implements a language that has flow control constructs, a macro
-facility that provides a variety of features in addition to data storage,
-along with built in history and line editing capabilities. It
-incorporates many features to aid interactive use and has the advantage
-that the interpretative language is common to both interactive and non-
-interactive use (shell scripts).  Commands can be typed
-directly to the running shell or can be put into a file and the file
+The simple shell is a program that takes commands
+from the user, or a file, and gives them to the
+operating system to perform.
+A terminal is used to interact with the simple shell.
+The shell implements a language that has flow
+control constructs, a macro facility that provides a
+variety of features in addition to data storage,
+along with built in history and line editing capabilities.
+It incorporates many features to aid
+interactive use and has the advantage that the
+interpretative language is common to both interactive and
+non-interactive use (shell scripts).
+Commands can be typed directly to the running shell
+or can be put into a file and the file
 can be executed directly by the shell.
 
 .B Interactive mode
 
-The commands are run with user-interaction from keyboard. 
+The commands are run with user-interaction from keyboard.
 
 .B Non-interactive mode
 
